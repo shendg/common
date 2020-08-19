@@ -1,6 +1,6 @@
-package com.dimeno.common;
+package com.sdg.common;
 
-import com.dimeno.core.mvp.BaseActivity;
+import com.sdg.core.mvp.BaseActivity;
 import com.sdg.common.R;
 
 public class MainActivity extends BaseActivity {

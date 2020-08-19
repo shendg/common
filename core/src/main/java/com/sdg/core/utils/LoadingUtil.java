@@ -1,4 +1,4 @@
-package com.dimeno.core.utils;
+package com.sdg.core.utils;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.dimeno.core.R;
+import com.sdg.core.R;
 import com.wang.avi.AVLoadingIndicatorView;
 
 /**
@@ -19,9 +19,9 @@ public class LoadingUtil {
     private final AVLoadingIndicatorView loading;
 
     public LoadingUtil(Activity activity) {
-        pd = new Dialog(activity, com.dimeno.core.R.style.dialog);
+        pd = new Dialog(activity, com.sdg.core.R.style.dialog);
         View view = LayoutInflater.from(activity).inflate(
-                com.dimeno.core.R.layout.loading, null);
+                com.sdg.core.R.layout.loading, null);
         tv_progress = view.findViewById(R.id.tv_progress);
         loading = view.findViewById(R.id.loading);
         pd.setContentView(view);

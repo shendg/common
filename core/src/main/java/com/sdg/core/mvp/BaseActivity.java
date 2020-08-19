@@ -1,4 +1,4 @@
-package com.dimeno.core.mvp;
+package com.sdg.core.mvp;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.dimeno.core.utils.LoadingUtil;
-import com.dimeno.core.utils.MyUtils;
-import com.dimeno.core.utils.ToastUtil;
+import com.sdg.core.utils.LoadingUtil;
+import com.sdg.core.utils.MyUtils;
+import com.sdg.core.utils.ToastUtil;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;

@@ -1,4 +1,4 @@
-package com.dimeno.core.mvp;
+package com.sdg.core.mvp;
 
 /**
  * presenter 基类

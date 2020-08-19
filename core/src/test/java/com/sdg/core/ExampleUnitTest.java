@@ -1,4 +1,4 @@
-package com.dimeno.common;
+package com.sdg.core;
 
 import org.junit.Test;
 

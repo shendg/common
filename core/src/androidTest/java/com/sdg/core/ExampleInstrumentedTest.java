@@ -1,4 +1,4 @@
-package com.dimeno.core;
+package com.sdg.core;
 
 import android.content.Context;
 

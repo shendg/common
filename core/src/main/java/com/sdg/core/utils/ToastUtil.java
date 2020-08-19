@@ -1,4 +1,4 @@
-package com.dimeno.core.utils;
+package com.sdg.core.utils;
 
 import android.content.Context;
 import android.widget.Toast;

@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package com.dimeno.core.utils;
+package com.sdg.core.utils;
 
 import android.app.Activity;
 import android.content.Context;
