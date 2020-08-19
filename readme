@@ -1,0 +1,28 @@
+description：核心库包含的东西：mvp，权限申请，日志，吐司，一些工具类
+功能点：
+    baseactivity和basefragment里面包含
+        toast：showShort()
+        toast：showLong()
+        退出APP：exit()
+        显示隐藏加载进度：showLoading  showTextLoading  hideLoading
+        activity跳转：gotoActivity
+        刷新列表：baseAcSmartRefresh
+            首先需要在xml里面用SmartRefreshLayout包裹列表recycleview
+            然后在activity的initdata里面调用baseAcSmartRefresh方法，传入你用来包裹的SmartRefreshLayout
+            最后在重写的refreshTodo方法里面刷新数据
+        日志：LogUtil
+使用手册：
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+dependencies {
+	        implementation 'com.github.sdgSnow:common:Tag'
+	}
+注意事项：
+1.minSdkVersion 最低要设置19
